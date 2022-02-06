@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph is my name</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        label{
+            color: red;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #span_world{
+            background-color: sienna;
+            color: white;
+            padding: 15px;
+            margin: 30px;
+        }
+
+        h1{
+            color: rgb(255, 158, 141);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+        #h1_para{
+            margin-top: 12px;
+        }
+
+        #mecolor{
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            margin-top: 18px;
+        }
+
+        #text{
+            color: coral;
+        }
+
+        @media (max-width :480px)
+        {
+            #span_world{
+                display: none;
+              visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            <h1>
+                My Heading Is This
+            </h1>
+            <div align = "center">
+            <span id="span_world"></span>
+            <br>
+            <br>
+            <p id="h1_para">
+                world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country. world is running in my track as you can work with me in the world as I am a good member of the country.
+            </p>
+        </div>
+            <label for="">Note: Hover the paragraph if you want to change it.</label>
+        </div>
+        <div class="input" align = "center">
+            <br>
+            <label id="text" for="">Write the color name and hit enter: </label>
+            <input id="mecolor" type="text" placeholder="color" onchange="setcolor()">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
